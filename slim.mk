@@ -3,9 +3,6 @@ $(call inherit-product, device/htc/himaul/full_himaul.mk)
 # Inherit some common SLIM stuff.
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
-
 PRODUCT_NAME := slim_himaul
 BOARD_VENDOR := htc
 TARGET_VENDOR := htc
